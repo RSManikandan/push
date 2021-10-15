@@ -1,0 +1,55 @@
+{
+    "restaraunt" : [
+            {
+            "image": "/../../assets/images/ck1.jpg",
+            "item":"paneer tikka",
+            "amount":"$10.00",
+            "name" : "desotta",
+            "street":"aryabavan street",
+            "location" : "karaikudi",
+            "timings": "10am to 11pm",
+            "contact":"67894890"
+            },
+            {
+            "image": "/../../assets/images/dd.jpg",
+            "item":"Biriyani",
+            "amount":"$120.00",
+            "name" : "Chettinadu",
+            "street":"aryabavan street,",
+            "location" : "kkdi",
+            "timings": "10am to 10pm",
+            "contact":"901487380"
+            },
+            {
+            "image": "/../../assets/images/bb.jpg",
+            "item":"Burger",
+            "amount":"$100.00",
+            "name" : "oyalo",
+            "street":"gandhi street",
+            "location" : "dvk",
+            "timings": "6am to 11pm",
+            "contact":"985678678"
+            },
+            {
+                "image": "/../../assets/images/s.jpg",
+                "item":"salads",
+                "amount":"$16.00",
+                "name" : "moon",
+                "street":"ambethgar street",
+                "location" : "madurai",
+                "timings": "10am to 12pm",
+                "contact":"456783876"
+                },
+                {
+                "image": "/../../assets/images/m.jpg",
+                "item":"mutton curry",
+                "amount":"$150.00",
+                "name" : "corner",
+                "street":"thuraipakam street",
+                "location" : "chennai",
+                "timings": "10am to 9am",
+                "contact":"325537867"
+                }
+    ]
+    }
+    

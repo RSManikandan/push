@@ -1,0 +1,23 @@
+@media only screen and (max-width: 300px){
+.navbar navbar-expand-sm{
+  float:center;
+  }
+}
+@media only screen and (max-width: 300px){
+  .col-md-15{
+    float:right;
+    }
+  }
+  @media only screen and (max-width: 300px){
+    .col-md-3{
+      float:center;
+      }
+    }
+    @media only screen and (max-width: 100px){
+      .img-responsive{
+        float:center;
+        }
+      }
+      
+      
+    

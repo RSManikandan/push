@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="container-fluid-well">
+<div class="text-center"style="font-size:50px; background-color:orange"><i class="fa fa-cutlery"></i> Foodie Restarunts</div>
+   <ul class="list-group" height="100%" width="100%;">
+   <li class="list-group-item text-capitalize" *ngFor="let value of _restaraunts;">
+      <div class="card" style="width: 18rem;">
+         <img [src]="value.image"  class="card-img-top text-center" width="120" height="120">
+         <div class="card-body">
+            <p class="card-text">{{value.item}}</p>
+           <p class="card-text" style="color:orange">{{value.amount}}</p>
+         </div>
+       </div>
+        <h1 class="text-center" style="margin-top:-18%">{{value.name}}</h1>
+        <div class="col-md-15">
+        <p class="text-right">{{value.street}}</p>
+        <p class="text-right">{{value.location}}</p>
+        <p class="text-right">{{value.timings}}</p>
+        <p class="text-right"><i class="fa fa-phone"></i> {{value.contact}}</p>
+        </div>
+   </li> 
+</ul>
+</div>

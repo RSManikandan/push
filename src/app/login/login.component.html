@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+  <img  class="img-responsive" src="assets/images/d.png" width="30%" height="40%" style="margin-top:7%; margin-left: 3%;" alt="image">
+    <div class="col-md-8 offset-md-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h1 style="margin-top:-50%; font-weight:bold; margin-left:15%;">Log In </h1>
+              </div>
+              <div class="col-md-12" style=" margin-left:15%">
+              <form>
+                  <div class="form-group" style="margin-top:-40%; display: -ms-flexbox; display: flex; width: 100%; margin-bottom:10px; ">
+                    <i class="fa fa-user" style="margin-top:1%; margin-left:-1%"></i>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="Your name" style=" width:50%; border-style:none;border-bottom:1px solid grey; padding:-25px; outline: none;" [(ngModel)]="_username">
+                      </div>
+                      <div class="form-group" style="display: -ms-flexbox; display: flex; width: 100%; margin-bottom:10px;">
+                        <i class="fa fa-lock" style="margin-top:1%; margin-left:-1%"></i>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="password" style="width:50%; border-style:none;border-bottom:1px solid grey" [(ngModel)]="_password">
+                    </div>
+                    <div class="checkbox">
+                        <label><input type="checkbox"> Remember me</label>
+                    </div>
+                    <div class="col-md-15">
+                        <button class="btn btn-info" style="margin-top:5%; margin-left:-1%; width:20%"  (click)="onLogin()">Log In</button>
+                    </div>
+                <div class="col-md-12">
+                   <label style="margin-left:-50%; margin-top:20%;"><u>create an account</u></label>
+                </div>
+                <div class="col-md-3">
+                  <label style=" margin-top:-5%; margin-left:5%;">Or Login With</label>
+                </div>
+                <nav class="navbar navbar-expand-sm" style="margin-top:-5%; margin-left:15%;">
+                <ul class="navbar-nav navbar-right">
+                  <li class="nav-item">
+                      <a class="nav-link" href="/home" style="font-size: 1em; color:white; background-color:blue; padding-top:5px; padding-left:8px; padding-right:8px; padding-bottom: 5px; border-radius:4px; margin:7px;">
+                        <i class="fa fa-facebook-f"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" style="font-size: 1em; color:white; background-color:rgb(62, 182, 230); padding:5px; border-radius:4px; margin:7px;">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#" style="font-size: 1em; color:white; background-color:red; padding:5px; border-radius:4px; margin:7px;">
+                        <i class="fa fa-google"></i>
+                      </a>
+                  </li>
+              </ul>
+              </nav>
+              </form>
+              </div>
+              </div>
+          </div>
+        </div>
+</body>
