@@ -6,11 +6,3 @@ li:hover{
   color:orange;
   background-color: seashell;
 }
-p{
-  margin-top:0%;
-}
-@media only screen and (max-width: 150px){
-  .col-md-12{
-    float:left;
-    }
-  }
